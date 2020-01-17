@@ -63,6 +63,7 @@ def part2(instructions, regs):
         ip += 1
     print(regs['h'])
 
+
 with open('../input/23.txt') as f:
     regs = {}
     instructions = []
